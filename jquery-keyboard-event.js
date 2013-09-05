@@ -10,7 +10,7 @@
     this.each(function(){
       var event = document.createEvent('KeyboardEvent');
       if(event.initKeyboardEvent)
-        event.initKeyboardEvent(options.type, true, true);
+        event.initKeyboardEvent(options.type, true, true, null, '12', 1, '', false, 'en');
       else // Firefox
         event.initKeyEvent(options.type, true, true, null, false, false, false, false, 0, 32);
       this.dispatchEvent(event);
