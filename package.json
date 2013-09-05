@@ -1,0 +1,16 @@
+{
+  "name": "jQuery-keyboard-event",
+  "author": "Arnaud Rinquin",
+  "description": "jQuery event to trigger native keyboard event",
+  "contributors": [
+    {
+      "name": "Arnaud Rinquin",
+      "email": "arnaud.rinquin@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "karma": "~0.10.x",
+    "karma-safari-launcher": "~0.1.1",
+    "karma-opera-launcher": "~0.1.0"
+  }
+}
