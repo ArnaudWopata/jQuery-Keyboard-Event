@@ -21,6 +21,7 @@ Tested on:
 * Chrome 29
 * Firefox 23
 * Safari 6
+* IE 10
 
 ## Test
 You need to install npm and run `npm install` to install karma and required extension.
